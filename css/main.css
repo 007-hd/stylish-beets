@@ -75,7 +75,7 @@ div {
 }
 
 strong {
-  fornt-family: "PT Serif", serif;
+  font-family: "PT Serif", serif;
   font-weight: normal;
   font-style: italic;
   font-size: 1.5rem;
@@ -110,7 +110,7 @@ ul {
   color: #222;
 }
 
-li{
+li {
   list-style-type: circle;
 }
 
