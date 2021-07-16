@@ -74,8 +74,17 @@ div {
   font-size: 1.5rem;
 }
 
+strong {
+  fornt-family: "PT Serif", serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #222;
+}
+
 cite {
   font-size: .8rem;
+  color: #222;
 }
 
 h2 + ol {
@@ -83,4 +92,30 @@ h2 + ol {
   font-size: 1.125rem;
   color: #222;
   list-style-type: lower-greek;
+}
+
+dl {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  color: #222;
+}
+
+li{
+  list-style-type: circle;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  color: #222;
 }
