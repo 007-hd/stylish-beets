@@ -9,27 +9,28 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h1, h2 {
   font-size: 1.5rem;
-  font-family: 'PT Sans', snas-serif;
+  font-family: "PT Sans", snas-serif;
   color: #3f1622;
 }
 
 nav {
   font-size: 1.125rem;
-  font-family: PT Sans, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
+
 nav ol {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
@@ -39,7 +40,7 @@ img {
 }
 
 figcaption {
-  font-family: PT Serif, serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-style: italic;
   text-align: center;
@@ -47,39 +48,38 @@ figcaption {
 }
 
 span {
-  font-family: PT Serif, serif;
+  font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: 1.125rem;
   color: #222;
 }
 
 p {
-  font-family: PT Serif, serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   color: #222;
+  font-weight: normal;
 }
 
 blockquote {
-  font-family: PT Serif, serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5rem;
   color: #222;
 }
 
-cite {
-  font-family: PT Serif, serif;
-  font-size: 0.8rem;
-  color: #222;
-}
-
-h2 {
+div {
+  font-family: "PT Serif", serif;
+  font-style: italic;
   font-size: 1.5rem;
-  font-family: 'PT Sans', snas-serif;
-  color: #3f1622;
 }
 
-h2 + ol{
-  font-family: PT Serif, serif;
+cite {
+  font-size: .8rem;
+}
+
+h2 + ol {
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   color: #222;
   list-style-type: lower-greek;
